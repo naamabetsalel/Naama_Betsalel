@@ -1,0 +1,72 @@
+:root {
+    --MyLightBlue: #76b5c5;
+    --MyBlue: #063970;
+    --Sand: #edb879;
+}
+
+@font-face {
+    font-family: Suez;
+    src: url("SuezOne-Regular.ttf");
+}
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    padding: 5vw;
+    border: 1px solid var(--Sand);
+}
+
+body {
+    background-color: var(--MyBlue);
+    border: 3px solid var(--Sand);
+}
+
+body.type2 {
+    background-image: url("lion.jfif");
+}
+
+h1 {
+    font-family: Suez;
+    animation-name: Disapear;
+    animation-duration: 2s;
+    animation-iteration-count: 5;
+}
+
+.GridContainer{
+    display: grid;
+    grid-template-areas: 
+    'top_left top_right'
+    'middle_left middle_right'
+    'bottom_all bottom_all';
+}
+
+.item1 {
+    grid-area: top_left;
+    
+}
+
+.item2 {
+    grid-area: top_right;
+}
+
+.item3 {
+    grid-area: middle_right;
+    font-size: large;
+}
+
+.item4 {
+    grid-area: bottom_all;
+    
+}
+
+.item5{
+    grid-area: middle_left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+}
+
+@keyframes Disapear {
+    0%  {color: white;}
+    50% {color: rgba(255, 255, 255, 0);}
+    100% {color: white;}
+}
