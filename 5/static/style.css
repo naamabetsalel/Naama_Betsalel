@@ -36,6 +36,7 @@
 
 .item4{
     grid-area: bottomLeft;
+    background-color: blue;
 }
 
 .item5{
