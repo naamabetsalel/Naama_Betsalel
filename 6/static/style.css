@@ -1,0 +1,23 @@
+*{
+    padding: 2vw;
+    border-color: cadetblue;
+    background-color: rgb(246, 186, 166);
+    color: aliceblue;
+    text-align: center;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: initial;
+}
+
+.button{
+    background-color: rgb(246, 186, 166);
+    transition: 2s;
+}
+
+button:hover{
+    color: rgb(143, 150, 150);
+    background-color: rgb(236, 216, 216);
+    border-radius: 20% ;
+    cursor: pointer;
+}
+
