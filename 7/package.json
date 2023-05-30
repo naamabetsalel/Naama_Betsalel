@@ -1,0 +1,17 @@
+{
+  "name": "7",
+  "version": "1.0.0",
+  "description": "this is the first server at Naama Betsalel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {}
+}
