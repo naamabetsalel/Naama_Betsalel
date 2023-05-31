@@ -1,4 +1,38 @@
-*{
+.container {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
     color: green;
-    font-family: Arial, Helvetica, sans-serif;
-}
+    font-weight: bold;  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: green;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
